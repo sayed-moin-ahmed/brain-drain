@@ -1,0 +1,7 @@
+.research-pipeline/
+dist/
+__pycache__/
+:memory:.ses
+.remember/
+BrainDrain.pdf
+braindrain_dist.zip

@@ -1,0 +1,26 @@
+unrot (0.3.0) unstable; urgency=low
+
+  * Attention: Focus tab with focus sessions (optional Do Not Disturb),
+    a one-tap distraction log, and the book's phone setup checklist.
+  * Behavior: one 7-day experiment at a time, checked daily.
+  * Weekly focus, learning and digital hygiene scores, each explained.
+  * Coach: one next best action that adapts to what you accept or skip.
+  * Ending a focus session restores your own Do Not Disturb setting.
+
+ -- Unrot contributors <maintainers@unrot.invalid>  Wed, 21 Oct 2026 23:00:00 +0530
+
+unrot (0.2.0) unstable; urgency=low
+
+  * Reminders: water, breaks every 35 min, eye exercises, focus hour
+    with Do Not Disturb, lunch, walk, reading, phone curfew, writing.
+  * Background mode and start at login; walk timer survives restarts.
+  * Neutral package identity (io.github.unrot.Unrot); private data folder.
+  * Build with xz compression so older dpkg versions can read the package.
+
+ -- Unrot contributors <maintainers@unrot.invalid>  Wed, 21 Oct 2026 22:00:00 +0530
+
+unrot (0.1.0) unstable; urgency=low
+
+  * First release: five daily steps, weekly view, journal, library, ideas.
+
+ -- Unrot contributors <maintainers@unrot.invalid>  Wed, 21 Oct 2026 12:00:00 +0530

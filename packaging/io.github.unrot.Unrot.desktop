@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Unrot
+GenericName=Daily Practice
+Comment=Five small daily steps to get your attention back
+Exec=unrot
+Icon=io.github.unrot.Unrot
+Terminal=false
+Categories=Utility;GTK;
+Keywords=habit;journal;reading;focus;phone;wellbeing;
+StartupNotify=true
+StartupWMClass=io.github.unrot.Unrot

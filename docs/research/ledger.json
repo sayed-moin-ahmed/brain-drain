@@ -1,0 +1,240 @@
+[
+ {
+  "id": 1,
+  "claim": "The book's 'Nature study' is a June 2025 editorial 'Writing is thinking' in Nature Reviews Bioengineering, not a study.",
+  "passage": "Writing is thinking",
+  "url": "https://www.nature.com/articles/s44222-025-00323-4",
+  "dates": {
+   "pub": "2025-06-16",
+   "retrieved": "2026-10-21"
+  },
+  "independence": "Journal editors (opinion piece)",
+  "confidence": "high",
+  "status": "single-source",
+  "fetch_path": "webfetch",
+  "adversarial": {
+   "by": "worker"
+  }
+ },
+ {
+  "id": 2,
+  "claim": "The handwriting EEG study measured brain connectivity in 36 analysed participants, not learning.",
+  "passage": "Handwriting but not typewriting leads to widespread brain connectivity: a high-density EEG study with implications for the classroom",
+  "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1219945/full",
+  "dates": {
+   "pub": "2024-01-26",
+   "retrieved": "2026-10-21"
+  },
+  "independence": "Single lab",
+  "confidence": "medium",
+  "status": "single-source",
+  "fetch_path": "webfetch",
+  "adversarial": {
+   "by": "worker"
+  }
+ },
+ {
+  "id": 3,
+  "claim": "Grayscale reduced screen time and anxiety in a study of 133 students.",
+  "passage": "Color me calm: Grayscale phone setting reduces anxiety and problematic smartphone use",
+  "url": "https://link.springer.com/article/10.1007/s12144-021-02020-y",
+  "dates": {
+   "pub": "2021-06-26",
+   "retrieved": "2026-10-21"
+  },
+  "independence": "Holte/Ferraro lab",
+  "confidence": "medium",
+  "status": "verified",
+  "fetch_path": "webfetch",
+  "adversarial": {
+   "by": "worker"
+  }
+ },
+ {
+  "id": 4,
+  "claim": "An independent week-long grayscale study found about 20 minutes per day less screen time; unlocks unchanged.",
+  "passage": "Is life brighter when your phone is not?",
+  "url": "https://api.crossref.org/works/10.1177/20501579231212062",
+  "dates": {
+   "pub": "2023-11-09",
+   "retrieved": "2026-10-21"
+  },
+  "independence": "Independent team (Dekker & Baumgartner)",
+  "confidence": "medium",
+  "status": "verified",
+  "fetch_path": "abstract-only",
+  "adversarial": {
+   "by": "worker"
+  }
+ },
+ {
+  "id": 5,
+  "claim": "Batching notifications 3 times a day improved well-being; turning them all off raised anxiety and FoMO.",
+  "passage": "Batching smartphone notifications can improve well-being",
+  "url": "https://scholars.duke.edu/publication/1402953",
+  "dates": {
+   "pub": "2019-12-01",
+   "retrieved": "2026-10-21"
+  },
+  "independence": "Single RCT, N=237",
+  "confidence": "medium",
+  "status": "single-source",
+  "fetch_path": "webfetch",
+  "adversarial": {
+   "by": "worker"
+  }
+ },
+ {
+  "id": 6,
+  "claim": "Reading for pleasure in childhood is associated with better cognition and mental health (ABCD cohort, 10,000+).",
+  "passage": "Early-initiated childhood reading for pleasure: associations with better cognitive performance, mental well-being and brain structure in young adolescence",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Sun+early-initiated+childhood+reading+for+pleasure+Psychological+Medicine&format=pubmed",
+  "dates": {
+   "pub": "2023-06-28",
+   "retrieved": "2026-10-21"
+  },
+  "independence": "Single cohort",
+  "confidence": "medium",
+  "status": "single-source",
+  "fetch_path": "abstract-only",
+  "adversarial": {
+   "by": "worker"
+  }
+ },
+ {
+  "id": 7,
+  "claim": "'Brain rot' was Oxford Word of the Year 2024, defined as the 'supposed deterioration' of a person's mental state.",
+  "passage": "the supposed deterioration of a person's mental or intellectual state",
+  "url": "https://corp.oup.com/news/brain-rot-named-oxford-word-of-the-year-2024/",
+  "dates": {
+   "pub": "2024-12-02",
+   "retrieved": "2026-10-21"
+  },
+  "independence": "Publisher press release",
+  "confidence": "high",
+  "status": "single-source",
+  "fetch_path": "webfetch",
+  "adversarial": {
+   "by": "worker"
+  }
+ },
+ {
+  "id": 8,
+  "claim": "Loop Habit Tracker avoids hard streak punishment; users asked for skip days.",
+  "passage": "A few missed days after a long streak, however, will not completely destroy your progress, unlike many other don't-break-the-chain apps.",
+  "url": "https://github.com/iSoron/uhabits",
+  "dates": {
+   "pub": "2026-10-19",
+   "retrieved": "2026-10-21"
+  },
+  "independence": "Vendor README + user issues #406/#463",
+  "confidence": "high",
+  "status": "verified",
+  "fetch_path": "gh-api",
+  "adversarial": {
+   "by": "worker"
+  }
+ },
+ {
+  "id": 9,
+  "claim": "In a 6-week field study, friction plus an easy exit cut target-app openings by 57%; a message alone did not work.",
+  "passage": "While the friction by time delay also reduced consumption instances, the deliberation message was not effective.",
+  "url": "https://doi.org/10.1073/pnas.2213114120",
+  "dates": {
+   "pub": "2023-02-16",
+   "retrieved": "2026-10-21"
+  },
+  "independence": "App makers (conflict of interest)",
+  "confidence": "medium",
+  "status": "single-source",
+  "fetch_path": "abstract-only",
+  "adversarial": {
+   "by": "worker"
+  }
+ },
+ {
+  "id": 10,
+  "claim": "On GNOME/Wayland an app cannot read the active window, so per-app screen time tracking is blocked.",
+  "passage": "The Wayland protocol does not have a notion of an active window, and it is unlikely to ever have.",
+  "url": "https://docs.activitywatch.net/en/latest/faq.html",
+  "dates": {
+   "pub": "undated",
+   "retrieved": "2026-10-21"
+  },
+  "independence": "Project docs",
+  "confidence": "medium",
+  "status": "single-source",
+  "fetch_path": "webfetch",
+  "adversarial": {
+   "by": "worker"
+  }
+ },
+ {
+  "id": 11,
+  "claim": "GNOME 48 Settings added daily screen-time limits with a notification; Ubuntu 24.04 ships GNOME Settings 46.",
+  "passage": "set a daily limit for your total screen time each day.",
+  "url": "https://release.gnome.org/48/",
+  "dates": {
+   "pub": "2025-03",
+   "retrieved": "2026-10-21"
+  },
+  "independence": "Official release notes + Launchpad API",
+  "confidence": "high",
+  "status": "verified",
+  "fetch_path": "webfetch",
+  "adversarial": {
+   "by": "worker"
+  }
+ },
+ {
+  "id": 12,
+  "claim": "Ubuntu 26.10 shipped on 2026-10-15; 26.04.1 is the latest LTS.",
+  "passage": "Ubuntu 26.10 (Stonking Stingray)",
+  "url": "https://releases.ubuntu.com/26.10/",
+  "dates": {
+   "pub": "2026-10-15",
+   "retrieved": "2026-10-21"
+  },
+  "independence": "Canonical",
+  "confidence": "high",
+  "status": "verified",
+  "fetch_path": "curl",
+  "adversarial": {
+   "by": "worker"
+  }
+ },
+ {
+  "id": 13,
+  "claim": "Private Python modules go in /usr/share/<pkg>; byte-compile in postinst, remove in prerm.",
+  "passage": "These modules should be installed in /usr/share/module, or /usr/lib/module if the modules are architecture-dependent",
+  "url": "https://www.debian.org/doc/packaging-manuals/python-policy/",
+  "dates": {
+   "pub": "current",
+   "retrieved": "2026-10-21"
+  },
+  "independence": "Debian policy",
+  "confidence": "high",
+  "status": "verified",
+  "fetch_path": "curl",
+  "adversarial": {
+   "by": "worker"
+  }
+ },
+ {
+  "id": 14,
+  "claim": "libadwaita 1.6 deprecated AboutWindow, MessageDialog and PreferencesWindow (use the 1.5 Dialog forms).",
+  "passage": "Deprecate AdwAboutWindow, AdwMessageDialog and AdwPreferencesWindow",
+  "url": "https://gitlab.gnome.org/GNOME/libadwaita/-/raw/main/NEWS",
+  "dates": {
+   "pub": "1.10.0",
+   "retrieved": "2026-10-21"
+  },
+  "independence": "Upstream; confirmed by runtime probe on 1.5",
+  "confidence": "high",
+  "status": "verified",
+  "fetch_path": "curl",
+  "adversarial": {
+   "by": "worker"
+  }
+ }
+]

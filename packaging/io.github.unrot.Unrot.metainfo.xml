@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.unrot.Unrot</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Unrot</name>
+  <summary>Five small daily steps to get your attention back</summary>
+  <developer id="io.github.unrot"><name>Unrot contributors</name></developer>
+  <description>
+    <p>Unrot turns the five steps from the guide "How to Unrot Your Brain" into a calm daily checklist:
+    a phone curfew, time with no device, writing, exploring a topic, and reading for fun.</p>
+    <p>There are no streaks. Rest days never count against you. Each step says honestly how strong
+    the evidence behind it is. All data stays on your computer.</p>
+    <p>Gentle reminders for water, breaks every 35 minutes, eye exercises, lunch, a walk, reading and a focus hour with Do Not Disturb
+    keep working after you close the window.</p>
+    <p>A Focus tab runs focus sessions and logs distractions. Weekly scores for focus, learning and
+    digital hygiene explain themselves, and a coach suggests one next best action that adapts to you.</p>
+  </description>
+  <launchable type="desktop-id">io.github.unrot.Unrot.desktop</launchable>
+  <provides><binary>unrot</binary></provides>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="0.3.0" date="2026-10-21"/>
+    <release version="0.2.0" date="2026-10-21"/>
+    <release version="0.1.0" date="2026-10-21"/>
+  </releases>
+</component>
