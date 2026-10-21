@@ -1,0 +1,88 @@
+.gitignore
+  s_905025a51ce23c::t_8e48d245e52c71 1-6
+  s_905025a51ce23c::t_dedee2525fd792 7
+README.md
+  s_905025a51ce23c::t_fb802cea60e4f1 1-99
+docs/research/ledger.json
+  s_905025a51ce23c::t_378027f09028c4 1-240
+docs/research/report.md
+  s_e35eb080ac029b::t_01ce3db525792c 1-47
+packaging/build.sh
+  s_905025a51ce23c::t_cc6c50818f3f52 1-32
+packaging/changelog
+  s_905025a51ce23c::t_7ca8c08dadc576 1-26
+packaging/check-distros.sh
+  s_905025a51ce23c::t_e89e5244343c89 1-56
+packaging/control
+  s_905025a51ce23c::t_96a0f544a51577 1-12
+packaging/copyright
+  s_905025a51ce23c::t_7025960b616120 1-23
+packaging/io.github.unrot.Unrot.desktop
+  s_905025a51ce23c::t_987a681e9a459e 1-12
+packaging/io.github.unrot.Unrot.metainfo.xml
+  s_905025a51ce23c::t_bd47d78a2e3616 1-27
+packaging/io.github.unrot.Unrot.svg
+  s_905025a51ce23c::t_a1e19d1c532c32 1-7
+packaging/postinst
+  s_905025a51ce23c::t_08b49d94ab77a3 1-6
+packaging/prerm
+  s_905025a51ce23c::t_73769ab5ebbd4c 1-6
+packaging/unrot.1
+  s_905025a51ce23c::t_0d2792d95fb170 1-12
+packaging/unrot.launcher
+  s_905025a51ce23c::t_56013bd5e1cb4a 1-8
+tests/test_reminders.py
+  s_905025a51ce23c::t_e92d85ac9a1e74 1-147
+tests/test_store.py
+  s_e35eb080ac029b::t_307ffd59489553 1-119
+tests/test_ui.py
+  s_905025a51ce23c::t_97387acbf33e98 1-225
+unrot/__init__.py
+  s_905025a51ce23c::t_332714b472483a 1-4
+unrot/autostart.py
+  s_905025a51ce23c::t_c30ba7e5478287 1-33
+unrot/coach.py
+  s_905025a51ce23c::t_60b983b9a712c1 1-291
+unrot/content.py
+  s_905025a51ce23c::t_1873e4f7146927 1-101
+unrot/focus_page.py
+  s_905025a51ce23c::t_4a5d936352523b 1-161
+unrot/main.py
+  s_905025a51ce23c::t_303589514d8da3 1-832
+unrot/reminders.py
+  s_204e66971313f2::t_f24a078fdafd23 1-118
+unrot/store.py
+  s_905025a51ce23c::t_b09cc543411ea0 1-400
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d0cf79c38c57a0a09827cf0b98b02c7424dd2bb6",
+  "prompts": {},
+  "sessions": {
+    "s_204e66971313f2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a15d48-6417-7c63-8b9b-8d6f26b3667e",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "sayed-moin-ahmed <9281064+sayed-moin-ahmed@users.noreply.github.com>"
+    },
+    "s_905025a51ce23c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "51591412-3b3b-4c1e-bdc7-4a4183117310",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "sayed-moin-ahmed <9281064+sayed-moin-ahmed@users.noreply.github.com>"
+    },
+    "s_e35eb080ac029b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "01a15d48-6417-7c63-8b9b-8d6f26b3667e",
+        "model": "unknown"
+      },
+      "human_author": "sayed-moin-ahmed <9281064+sayed-moin-ahmed@users.noreply.github.com>"
+    }
+  }
+}
